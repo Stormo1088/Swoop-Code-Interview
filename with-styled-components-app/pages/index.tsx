@@ -16,6 +16,7 @@ export default function Home() {
       <Container>
         <StyledTitle>
           <h1>My Inbox</h1>
+          <h3>Redeen your packs</h3>
         </StyledTitle>
       </Container>
       </>
