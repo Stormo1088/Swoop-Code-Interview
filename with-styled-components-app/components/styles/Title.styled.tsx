@@ -8,14 +8,6 @@ export const StyledTitle = styled.div`
     margin: auto;
     text-align: center;
 
-    @media ${devices.laptop} {
-        max-width: 800px;
-    }
-
-    @media ${devices.desktop} {
-        max-width: 1400px;
-    };
-
     h1 {
         color: ${({ theme }) => theme.colors.white};
         font-size: 60px;
@@ -28,4 +20,12 @@ export const StyledTitle = styled.div`
         font-size: 40px;
         margin-top: 5px;
     }
+
+    @media ${devices.laptop} {
+        max-width: 800px;
+    }
+
+    @media ${devices.desktop} {
+        max-width: 1400px;
+    };
 `;
