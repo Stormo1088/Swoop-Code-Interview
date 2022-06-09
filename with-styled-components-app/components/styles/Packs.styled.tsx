@@ -7,7 +7,6 @@ export const StyledPack = styled.div`
     border-bottom-style: solid;
     margin: auto;
     text-align: auto;  
-    min-width: 15cm;
     margin-left: 20px;
     margin-right: 20px;
 
@@ -47,6 +46,7 @@ export const StyledPack = styled.div`
         padding-bottom: 1em;
         padding-right: 2em;
         margin-top: 1em;
+        min-width: 15cm;
         img {
         float: left;
         display: block;
@@ -63,9 +63,19 @@ export const StyledPack = styled.div`
         max-width: 1400px;
         margin-left: 200px;
         margin-right: 200px;
-        margin-right: 200px;
         padding-bottom: 1em;
         padding-right: 2em;
         margin-top: 1em;
+        min-width: 15cm;
+        img {
+        float: left;
+        display: block;
+        width: 120px;
+        margin-left: auto;
+        margin-right: 1em;
+        }
+        h3 {
+        margin-bottom: 5em;
+        }
     };
 `;
