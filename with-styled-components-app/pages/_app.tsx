@@ -6,6 +6,10 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     background: #111823;
+    @font-face {
+    font-family: "Pixelar";
+    src: url("/fonts/Pixelar-Regular-W01-Regular.ttf") format("truetype");
+    }
   }
 `
 
@@ -14,6 +18,8 @@ const theme = {
     white: '#fafafb',
     yellow: '#c2a223',
     darkblue: '#111823',
+    gray: '#676b70',
+    darkgray: '#4c4d52',
   },
 }
 
