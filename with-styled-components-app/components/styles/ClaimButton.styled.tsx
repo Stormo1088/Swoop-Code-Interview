@@ -7,8 +7,11 @@ export const StyledClaimButton = styled.button`
     margin-right: 200px;
     padding-left: 1px;
     padding-right: 1px;
-    background: ${({ theme }) => theme.colors.yellow};
-    border-color: ${({ theme }) => theme.colors.yellow};
-    border-radius: 4px;
-    color: black;
+    padding: 15px 32px;    
+    background: ${({ theme }) => theme.colors.lightyellow};
+    border-color: ${({ theme }) => theme.colors.brown};
+    color: ${({ theme }) => theme.colors.brown};
+    font-weight: bolder;    
+    border-width: 6px;
+    border-radius: 1px;
 `;

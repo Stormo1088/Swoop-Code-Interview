@@ -9,17 +9,22 @@ export const StyledPack = styled.div`
     border-bottom-style: solid;
     margin-left: 200px;
     margin-right: 200px;
-    min-width: 10cm;
+    
+    min-width: 15cm;
 
     img {
+        float: left;
+        display: block;
         width: 120px;
-        align-self: left;
+        margin-left: auto;
+        margin-right: 30px;
     }
 
     h1 {
         color: ${({ theme }) => theme.colors.white};
         font-size: 20px;
         margin-bottom: 2px;
+        margin-top: 2em;
     }
 
     h2{
@@ -33,5 +38,6 @@ export const StyledPack = styled.div`
         color: ${({ theme }) => theme.colors.darkgray};
         font-size: 12px;
         margin-top: 2px;
+        margin-bottom: 5em;
     }
 `;

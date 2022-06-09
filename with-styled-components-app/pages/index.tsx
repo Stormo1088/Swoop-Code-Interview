@@ -10,7 +10,7 @@ import { StyledClaimButton } from '../components/styles/ClaimButton.styled';
 
 export default function Home() {
   return ( 
-    <> <head></head>
+    <> 
     <Container>
       <StyledHeader>
         <StyledButton>HOME</StyledButton>
