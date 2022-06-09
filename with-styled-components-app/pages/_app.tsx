@@ -5,6 +5,8 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    margin: auto;
+    max-width: 1200px;
     background: #111823;
     @font-face {
     font-family: "Pixelar";

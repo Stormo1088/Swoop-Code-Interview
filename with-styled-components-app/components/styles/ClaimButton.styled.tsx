@@ -7,7 +7,8 @@ export const StyledClaimButton = styled.button`
     margin-right: 200px;
     padding-left: 1px;
     padding-right: 1px;
-    padding: 15px 32px;    
+    padding: 15px 32px; 
+    min-width: max-content;
     background: ${({ theme }) => theme.colors.lightyellow};
     border-color: ${({ theme }) => theme.colors.brown};
     color: ${({ theme }) => theme.colors.brown};

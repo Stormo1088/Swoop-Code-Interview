@@ -5,7 +5,7 @@ export const StyledTitle = styled.div`
     font-size: 20px;
     color: ${({ theme }) => theme.colors.white};
     text-align: center;
-    margin: 0em;
+    min-width: 800px;
 
     h1 {
         color: ${({ theme }) => theme.colors.white};
