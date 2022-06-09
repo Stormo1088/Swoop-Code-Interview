@@ -1,10 +1,24 @@
-import { text } from "node:stream/consumers";
 import styled from "styled-components";
+import { devices } from "../../pages/_app";
 
 export const StyledClaimButton = styled.button`
-    margin-top: 1em;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin: auto;
+    text-align: center;
+
+    @media ${devices.laptop} {
+        max-width: 800px;
+        margin-top: 1em;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    @media ${devices.desktop} {
+        max-width: 1400px;
+        margin-top: 1em;
+        margin-left: 200px;
+        margin-right: 200px;
+    };
+    
     padding-left: 1px;
     padding-right: 1px;
     padding: 15px 32px; 

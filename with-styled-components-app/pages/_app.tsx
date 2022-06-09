@@ -6,14 +6,34 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     margin: auto;
-    max-width: 1200px;
+    max-width: 1400px;
     background: #111823;
     @font-face {
     font-family: "Pixelar";
-    src: url("/fonts/Pixelar-Regular-W01-Regular.ttf") format("truetype");
+    src: url(Pixelar-Regular-W01-Regular.ttf) format("truetype");
     }
   }
 `
+
+const sizes = {
+  mobileS: '320px',
+  mobileM: '375px',
+  mobileL: '425px',
+  tablet: '768px',
+  laptop: '1024px',
+  laptopL: '1440px',
+  desktop: '2560px',
+};
+
+export const devices = {
+  mobileS: `(min-width: ${sizes.mobileS})`,
+  mobileM: `(min-width: ${sizes.mobileM})`,
+  mobileL: `(min-width: ${sizes.mobileL})`,
+  tablet: `(min-width: ${sizes.tablet})`,
+  laptop: `(min-width: ${sizes.laptop})`,
+  laptopL: `(min-width: ${sizes.laptopL})`,
+  desktop: `(min-width: ${sizes.desktop})`,
+};
 
 const theme = {
   colors: {

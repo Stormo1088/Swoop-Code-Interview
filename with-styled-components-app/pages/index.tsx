@@ -1,5 +1,3 @@
-import styled from 'styled-components'
-import Image from 'next/image';
 import { StyledHeader } from '../components/styles/Header.styled';
 import { StyledButton } from '../components/styles/HeaderButton.styled';
 import { StyledTitle } from '../components/styles/Title.styled';
@@ -8,8 +6,8 @@ import { StyledClaimButton } from '../components/styles/ClaimButton.styled';
 
 
 export default function Home() {
-  return ( 
-    <> 
+  return (
+    <>
       <StyledHeader>
         <StyledButton>HOME</StyledButton>
         <StyledButton>STORE</StyledButton>

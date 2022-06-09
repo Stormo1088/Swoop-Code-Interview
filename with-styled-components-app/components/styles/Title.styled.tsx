@@ -1,11 +1,20 @@
-import { text } from "node:stream/consumers";
 import styled from "styled-components";
+import { devices } from "../../pages/_app";
 
 export const StyledTitle = styled.div`
     font-size: 20px;
     color: ${({ theme }) => theme.colors.white};
     text-align: center;
-    min-width: 800px;
+    margin: auto;
+    text-align: center;
+
+    @media ${devices.laptop} {
+        max-width: 800px;
+    }
+
+    @media ${devices.desktop} {
+        max-width: 1400px;
+    };
 
     h1 {
         color: ${({ theme }) => theme.colors.white};

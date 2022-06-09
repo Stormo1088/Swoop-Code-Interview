@@ -1,14 +1,31 @@
-import { text } from "node:stream/consumers";
 import styled from "styled-components";
+import { devices } from "../../pages/_app";
 
 export const StyledPack = styled.div`
-    padding-bottom: 1em;
-    padding-right: 2em;
-    margin-top: 1em;
+    
     border-color: ${({ theme }) => theme.colors.gray};
     border-bottom-style: solid;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin: auto;
+    text-align: auto;
+
+    @media ${devices.laptop} {
+        max-width: 800px;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-bottom: 1em;
+        padding-right: 2em;
+        margin-top: 1em;
+    }
+
+    @media ${devices.desktop} {
+        max-width: 1400px;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-right: 200px;
+        padding-bottom: 1em;
+        padding-right: 2em;
+        margin-top: 1em;
+    };
     
     min-width: 15cm;
 
@@ -17,7 +34,7 @@ export const StyledPack = styled.div`
         display: block;
         width: 120px;
         margin-left: auto;
-        margin-right: 30px;
+        margin-right: 1em;
     }
 
     h1 {
