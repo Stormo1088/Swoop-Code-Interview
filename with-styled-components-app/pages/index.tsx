@@ -16,7 +16,7 @@ export default function Home() {
       </StyledHeader>
         <StyledTitle>
           <h1>My Inbox</h1>
-          <h2>Redeen your packs</h2>
+          <h2>Redeem your packs</h2>
         </StyledTitle>
         <StyledPack>
           <img src="starter.png"/>

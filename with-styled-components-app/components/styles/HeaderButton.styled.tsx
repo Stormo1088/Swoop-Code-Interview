@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { devices } from "../../pages/_app";
 
 export const StyledButton = styled.button`
     padding-top: 0em;
