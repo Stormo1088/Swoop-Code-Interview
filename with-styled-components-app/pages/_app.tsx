@@ -1,4 +1,5 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
+import "../styles/fonts.css"
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -8,10 +9,9 @@ const GlobalStyle = createGlobalStyle`
     margin: auto;
     max-width: 1400px;
     background: #111823;
-    @font-face {
+  }
+  * {
     font-family: "Pixelar";
-    src: url(Pixelar-Regular-W01-Regular.ttf) format("truetype");
-    }
   }
 `
 
